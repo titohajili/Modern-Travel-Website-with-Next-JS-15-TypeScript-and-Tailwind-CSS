@@ -2,6 +2,7 @@ import { navLinks } from '@/app/constant/constand'
 import { link } from 'fs'
 import Link from 'next/link'
 import React from 'react'
+import { HiBars3BottomRight } from 'react-icons/hi2'
 import { TbAirBalloon } from 'react-icons/tb'
 
 const Nav = () => {
@@ -21,6 +22,14 @@ const Nav = () => {
               <p className='relative text-white font-medium text-base block after:block after:content-[""] after:absolute after:h-[3px] after:bg-yellow-300 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition-all duration-300 after:origin-right'>{link.label}</p>
             </Link>
           })}
+        </div>
+        {/* buttons */}
+        <div className='flex items-center space-x-4'>
+          <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg'>
+            Book Now            
+          </button>
+          {/* Burger menu */}
+          <HiBars3BottomRight className='w-8 h-8 cursor-pointer text-white lg:hidden '/>
         </div>
       </div>
     </div>
