@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMap } from 'react-icons/fa'
+import { FaCalendarWeek, FaMap } from 'react-icons/fa'
 
 const SearchBox = () => {
   return (
@@ -13,7 +13,21 @@ const SearchBox = () => {
         </div>
       </div>
       {/* 2nd search input */}
-      <div></div>
+      <div className='flex items-center space-x-6'>
+        <FaCalendarWeek className='w-6 h-6 text-blue-600'/>
+        <div>
+            <p className='text-lg font-medium mb-[0.2rem]'>Start Date</p>
+            <input type="date" className='outline-none border-none text-blue-600' />
+        </div>
+      </div>
+      {/* 3rd search input */}
+      <div className='flex items-center space-x-6'>
+        <FaCalendarWeek className='w-6 h-6 text-blue-600'/>
+        <div>
+            <p className='text-lg font-medium mb-[0.2rem]'>End Date</p>
+            <input type="date" className='outline-none border-none text-blue-600' />
+        </div>
+      </div>
     </div>
   )
 }
