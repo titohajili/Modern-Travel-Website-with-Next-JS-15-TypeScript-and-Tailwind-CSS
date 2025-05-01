@@ -41,7 +41,7 @@ const DestinationSlider = () => {
             </div>
               {/* Text content */}
               <h1 className='text-lg font-semibold mt-4'>{data.country}</h1>
-              <p className='text-sm text-gray-600'>{data.travelers} Travelers</p>
+              <p className='text-sm text-gray-600'>{data.travelers} Travelers </p>
         </div>
     })}
   </Carousel>
