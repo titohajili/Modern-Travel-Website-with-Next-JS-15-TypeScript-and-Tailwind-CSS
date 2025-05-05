@@ -26,6 +26,11 @@ const HotelCard = ({hotel}:Props) => {
         {/* Image */}
         <Image src={hotel.image} alt={hotel.name} width={500} height={500} className='overflow-hidden h-full w-full transition-all duration-300 object-cover group-hover:scale-110' />
       </div>
+      {/* Content */}
+      <div>
+        <h1 className='mt-4 text-lg font-semibold text-blue-950 hover:text-black cursor-pointer transition-all duration-200'>{hotel.name}</h1>
+        <p className='text-sm text-gray-600 mt-3 font-medium mb-6'>{hotel.location}</p>
+      </div>
     </div>
   )
 }
