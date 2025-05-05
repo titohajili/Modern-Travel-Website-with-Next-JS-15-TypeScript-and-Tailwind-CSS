@@ -38,6 +38,10 @@ const HotelCard = ({hotel}:Props) => {
             <p className='text-sm text-gray-800'>Exceptional</p>
             <p className='text-sm font-bold text-gray-800'>{hotel.reviews} Reviews</p>
         </div>
+        {/* Price */}
+        <p className='mt-3 text-gray-700 font-medium'>
+          Starting from <span className='text-blue-600 font-bold'>US${hotel.price}</span>
+        </p>
       </div>
     </div>
   )
