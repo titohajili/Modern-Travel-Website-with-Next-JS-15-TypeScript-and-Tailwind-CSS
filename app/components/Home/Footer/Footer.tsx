@@ -33,7 +33,21 @@ const Footer = () => {
             <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Activity Finder</p>
             <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Tour List</p>
             <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Fligh Fiinder</p>
-            <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Travel Agents</p>
+            <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Travel Agentsd part</p>
+        </div>
+        
+        {/* 4nd part */}
+
+        <div>
+          <h1 className='text-lg font-bold'>Contact</h1>
+          <div className='mt-6'>
+            <h1 className='text-sm text-gray-600'>Our Mobile Number</h1>
+            <h1 className='text-base font-bold text-blue-950 mt-1'>+994 099 868 62 00</h1>
+          </div>
+          <div className='mt-6'>
+            <h1 className='text-sm text-gray-600'>Our Email</h1>
+            <h1 className='text-base font-bold text-blue-950 mt-1'>maqatito963@gmail.com</h1>
+          </div>
         </div>
         
       </div>
