@@ -12,7 +12,7 @@ const Hotel = () => {
         {/* Hotel Card */}
         {hotelsData.map((data)=>{
             return (
-            <div key={data.id}>
+            <div key={data.id} data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <HotelCard hotel={data} />
             </div>
             )
