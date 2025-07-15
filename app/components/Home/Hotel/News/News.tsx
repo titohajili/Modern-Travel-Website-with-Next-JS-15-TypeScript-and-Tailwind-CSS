@@ -11,13 +11,13 @@ const News = () => {
         <div>
             <NewsCard image="/images/n1.jpg" title="Top 10 place to visit in Australia" date="15 November 2024"/>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
             <NewsCard image="/images/n2.jpg" title="Top 10 place to visit in Bangladesh" date="25 November 2024"/>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="100">
             <NewsCard image="/images/n3.jpg" title="Top 10 place to visit in Pakistan" date="22 November 2024"/>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="300">
             <NewsCard image="/images/n4.jpg" title="Top 10 place to visit in New Zenland" date="5 November 2024"/>
         </div>
       </div>
